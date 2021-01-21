@@ -5,21 +5,21 @@ This is not a complete programming guide from beginners to expertise level, but 
 
 Concepts Included:
 1. Data Structures
-    i) Arrays
-   ii) Hashtables
-  iii) Linked List
-   iv) Queue
-    v) Stack
-   vi) Tree
-  vii) Trie 
- viii) Graph
+    i) Arrays  
+   ii) Hashtables  
+  iii) Linked List  
+   iv) Queue  
+    v) Stack  
+   vi) Tree  
+  vii) Trie  
+ viii) Graph  
  
  2. Sorting Algorithms
-    i) Bubble Sort
-   ii) Selection Sort
-  iii) Insertion Sort
-   iv) Merge Sort
-    v) Quick Sort
-   vi) Heap Sort
-  vii) Counting Sort
- viii) Radix Sort
+    i) Bubble Sort  
+   ii) Selection Sort  
+  iii) Insertion Sort  
+   iv) Merge Sort  
+    v) Quick Sort  
+   vi) Heap Sort  
+  vii) Counting Sort  
+ viii) Radix Sort  
