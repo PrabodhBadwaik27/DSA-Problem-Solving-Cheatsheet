@@ -1,56 +1,56 @@
 # dsa-problem-solving-cheatsheet
 This repository is for the quick overview of important Data Structures and Algorithms concepts
 
-This is not a complete programming guide from beginners to expertise level, but more specifically for BEGINNER/INTERMEDIATE level programmers only to help them overlook very important concepts related to Data Structures and Algorithms before interviews or for periodic reviews.
+This is not a complete programming guide but more specifically designed for BEGINNER/INTERMEDIATE level programmers only to help them overlook very important concepts related to Data Structures and Algorithms before interviews or for periodic reviews.
 
 Concepts Included:  
-1. Data Structures  
-    i) Arrays  
-   ii) Hashtables  
-  iii) Linked List  
-   iv) Queue  
-    v) Stack  
-   vi) Tree  
-  vii) Trie  
- viii) Graph  
+## 1. Data Structures
+i) Arrays  
+ii) Hashtables  
+iii) Linked List  
+iv) Queue  
+v) Stack  
+vi) Tree  
+vii) Trie  
+viii) Graph  
  
- 2. Sorting Algorithms  
-    i) Bubble Sort  
-   ii) Selection Sort  
-  iii) Insertion Sort  
-   iv) Merge Sort  
-    v) Quick Sort  
-   vi) Heap Sort  
-  vii) Counting Sort  
- viii) Radix Sort  
+## 2. Sorting Algorithms  
+i) Bubble Sort  
+ii) Selection Sort  
+iii) Insertion Sort  
+iv) Merge Sort  
+v) Quick Sort  
+vi) Heap Sort  
+vii) Counting Sort  
+viii) Radix Sort  
 
-# Data Structures
+# 1. Data Structures
 
-## Arrays
+## 1.1 Arrays
 
-#### Static Array  
-Lookup - O(1)
-Append - O(1)
-Insert - o(n)
-Delete - O(n)
+#### Static Array    
+Lookup - O(1)  
+Append - O(1)  
+Insert - o(n)  
+Delete - O(n)  
 
 #### Dynamic Array  
-Lookup - O(1)
-Append - O(1)* : O(n) in case of reallocation of memory *(while other languages handles memory allocation by themselves, C has realloc() function)*
-Insert - o(n)
-Delete - O(n)
+Lookup - O(1)  
+Append - O(1)* : O(n) in case of reallocation of memory *(while other languages handles memory allocation by themselves, C has realloc() function)*  
+Insert - o(n)  
+Delete - O(n)  
 
 #### String Question
-Convert string to array
-C          : In C string is by itself stored as an array of characters. Hence its characters can be directly accessed by indexing.
-C#, Java   : toCharArray()
-Python     : list()
-JavaScript : split()
+Convert String to Array  
+C          : In C string is by itself stored as an array of characters. Hence its characters can be directly accessed by indexing.  
+C#, Java   : toCharArray()  
+Python     : list()  
+JavaScript : split()  
 
 #### Searching
-Is array sorted?
+Is array sorted?  
   - If **Yes**, Binary Search : O(logN)
   - IF **No**
-    - Will Sorting make solution efficient? 
+    - Will Sorting make solution efficient?   
       - If **Yes**, Sorting Algorithms
       - If **No**, Linear Search : O(n)
