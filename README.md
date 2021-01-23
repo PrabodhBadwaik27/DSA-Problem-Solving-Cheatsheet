@@ -1,7 +1,10 @@
-# dsa-problem-solving-cheatsheet
-This repository is for the quick overview of important Data Structures and Algorithms concepts
+# DSA Problem Solving Cheatsheet
+[Currently in Making]  
+This repository is for the quick overview of important Data Structures and Algorithms concepts.  
+**Pre-requisite:** Ability to run basic programs like patterns.  
+**Expertise:** BEGINNER, INTERMEDIATE  
 
-This is not a complete programming guide but more specifically designed for BEGINNER/INTERMEDIATE level programmers only to help them overlook very important concepts related to Data Structures and Algorithms before interviews or for periodic reviews.
+*NOTE: This is not a complete programming guide but more specifically designed for BEGINNER/INTERMEDIATE level programmers only to help them overlook very important concepts related to Data Structures and Algorithms before interviews or for periodic reviews.*  
 
 Concepts Included:  
 ## 1. Data Structures
@@ -31,21 +34,21 @@ viii) Radix Sort
 #### Static Array    
 Lookup - O(1)  
 Append - O(1)  
-Insert - o(n)  
+Insert - O(n)  
 Delete - O(n)  
 
 #### Dynamic Array  
 Lookup - O(1)  
 Append - O(1)* : O(n) in case of reallocation of memory *(while other languages handles memory allocation by themselves, C has realloc() function)*  
-Insert - o(n)  
+Insert - O(n)  
 Delete - O(n)  
 
 #### String Question
 Convert String to Array  
-C          : In C string is by itself stored as an array of characters. Hence its characters can be directly accessed by indexing.  
-C#, Java   : toCharArray()  
-Python     : list()  
-JavaScript : split()  
+C          - In C string is by itself stored as an array of characters. Hence its characters can be directly accessed by indexing.  
+C#, Java   - toCharArray()  
+Python     - list()  
+JavaScript - split()  
 
 #### Searching
 Is array sorted?  
