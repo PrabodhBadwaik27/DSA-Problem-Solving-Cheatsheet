@@ -1,5 +1,5 @@
 # DSA Problem Solving Cheatsheet
-[Currently in Making]  
+*[Currently in Making]*  
 This repository is for the quick overview of important Data Structures and Algorithms concepts.  
 **Pre-requisite:** Ability to run basic programs like patterns.  
 **Expertise:** BEGINNER, INTERMEDIATE  
@@ -8,48 +8,58 @@ This repository is for the quick overview of important Data Structures and Algor
 
 Concepts Included:  
 ## 1. Data Structures
-i) Arrays  
-ii) Hashtables  
-iii) Linked List  
-iv) Queue  
-v) Stack  
-vi) Tree  
-vii) Trie  
-viii) Graph  
+    1. Arrays  
+    2. Hashtables
+    3. Linked List  
+    4. Queue  
+    5. Stack  
+    6. Tree  
+    7. Trie  
+    8. Graph  
  
 ## 2. Sorting Algorithms  
-i) Bubble Sort  
-ii) Selection Sort  
-iii) Insertion Sort  
-iv) Merge Sort  
-v) Quick Sort  
-vi) Heap Sort  
-vii) Counting Sort  
-viii) Radix Sort  
+    1. Bubble Sort  
+    2. Selection Sort  
+    3. Insertion Sort  
+    4. Merge Sort  
+    5. Quick Sort  
+    6. Heap Sort  
+    7. Counting Sort  
+    8. Radix Sort  
 
 # 1. Data Structures
 
 ## 1.1 Arrays
 
-#### Static Array    
-Insert - O(n)  
-Delete - O(n)  
-Lookup - O(1)  
-Append - O(1)  
+#### Static Array 
+|Operation|Complexity|
+|---|---|
+|Insert|O(n)|  
+|Delete|O(n)|  
+|Lookup|O(1)|  
+|Append|O(1)|  
 
 #### Dynamic Array  
-Insert - O(n)  
-Delete - O(n)  
-Lookup - O(1)  
-Append - O(1)* : O(n) in case of reallocation of memory *(while other languages handles memory allocation by themselves, C has realloc() function)*  
+|Operation|Complexity|
+|---|---|
+|Insert|O(n)|  
+|Delete|O(n)|  
+|Lookup|O(1)|
+|Append|O(1)\*|  
+  
+\*O(n) in case of reallocation of memory *(while other languages handles memory allocation by themselves, C has realloc() function)*
 
 
 #### String Question
-Convert String to Array  
-C#, Java   - toCharArray()  
-Python     - list()  
-JavaScript - split()  
-*C         - A string is by-default stored as an array of characters. Hence its characters can be directly accessed by indexing.
+Convert String to Array 
+|Language|Function|
+|---|---|
+|C#, Java|.toCharArray()|
+|Python|.list()|  
+|JavaScript|split()|  
+|C|indexing\*|  
+  
+\*A string is by-default stored as an array of characters. Hence its characters can be directly accessed by indexing.
 
 #### Searching
 Is array sorted?  
