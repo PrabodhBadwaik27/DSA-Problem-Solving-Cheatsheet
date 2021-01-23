@@ -1,7 +1,10 @@
-# dsa-problem-solving-cheatsheet
-This repository is for the quick overview of important Data Structures and Algorithms concepts
+# DSA Problem Solving Cheatsheet
+[Currently in Making]  
+This repository is for the quick overview of important Data Structures and Algorithms concepts.  
+**Pre-requisite:** Ability to run basic programs like patterns.  
+**Expertise:** BEGINNER, INTERMEDIATE  
 
-This is not a complete programming guide but more specifically designed for BEGINNER/INTERMEDIATE level programmers only to help them overlook very important concepts related to Data Structures and Algorithms before interviews or for periodic reviews.
+*NOTE: This is not a complete programming guide but more specifically designed for BEGINNER/INTERMEDIATE level programmers only to help them overlook very important concepts related to Data Structures and Algorithms before interviews or for periodic reviews.*
 
 Concepts Included:  
 ## 1. Data Structures
