@@ -32,23 +32,24 @@ viii) Radix Sort
 ## 1.1 Arrays
 
 #### Static Array    
+Insert - O(n)  
+Delete - O(n)  
 Lookup - O(1)  
 Append - O(1)  
-Insert - O(n)  
-Delete - O(n)  
 
 #### Dynamic Array  
-Lookup - O(1)  
-Append - O(1)* : O(n) in case of reallocation of memory *(while other languages handles memory allocation by themselves, C has realloc() function)*  
 Insert - O(n)  
 Delete - O(n)  
+Lookup - O(1)  
+Append - O(1)* : O(n) in case of reallocation of memory *(while other languages handles memory allocation by themselves, C has realloc() function)*  
+
 
 #### String Question
 Convert String to Array  
-C          - In C string is by itself stored as an array of characters. Hence its characters can be directly accessed by indexing.  
 C#, Java   - toCharArray()  
 Python     - list()  
 JavaScript - split()  
+*C         - A string is by-default stored as an array of characters. Hence its characters can be directly accessed by indexing.
 
 #### Searching
 Is array sorted?  
